@@ -18,9 +18,9 @@ def simple_intrest(p: int|float, n: int, r: float|int) -> tuple:
 p = float(input("Enter Principle in INR : "))
 n = int(input("Enter Number of Years : "))
 r = float(input("Enter rate of Intrest in % P.A : "))
-\
+
 # Call the simple intrest function
-i,a = simple_intrest(p,n.r)
+i,a = simple_intrest(p,n,r)
 
 # Print the Intrest & Amount
 print(f"Simple Intrest : {i:.2f} INR.")
