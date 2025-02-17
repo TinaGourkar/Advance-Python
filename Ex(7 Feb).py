@@ -25,3 +25,4 @@ i,a = simple_intrest(p,n,r)
 # Print the Intrest & Amount
 print(f"Simple Intrest : {i:.2f} INR.")
 print(f"Amount : {a:.2f} INR.")
+
